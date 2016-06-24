@@ -12,4 +12,5 @@ class PootleBuild(BotPlugin):
     def pootle_build(self, msg, args):
         """
         """
+        import pdb; pdb.set_trace()
         return 'oh ok, yep on it'
