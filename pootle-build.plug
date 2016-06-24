@@ -1,0 +1,9 @@
+[Core]
+Name = Pootle build
+Module = pootle_build.py
+
+[Documentation]
+Description = This is a plugin to build Pootle tarballs
+
+[Python]
+Version = 2+

@@ -1,0 +1,63 @@
+# /deploy/*/
+/deploy/*/fabric.py
+/deploy/*/settings.conf
+/deploy/*/virtualhost.conf
+
+# /docs/
+/docs/_build/
+/docs/icons.rst.inc
+
+# /pootle/assets/*/
+/pootle/assets/
+
+# /pootle/dbs/
+/pootle/dbs/*.db
+/pootle/dbs/*.db-journal
+
+# /pootle/locale/*/LC_MESSAGES/
+/pootle/locale/*/LC_MESSAGES/
+
+# /pootle/po/
+/pootle/po/*/
+!/pootle/po/tutorial/
+!/pootle/po/templates/
+
+# /pootle/repos/
+/pootle/repos/*
+!/pootle/repos/README
+
+# /pootle/settings/
+/pootle/settings/*-local.conf
+
+# General
+*.bak
+*.pyc
+*.pyo
+*.prefs
+*.stats
+*.pending
+*.po.tm
+.translation_index
+
+# ViM-generated
+*.swn
+*.swo
+*.swp
+*~
+
+# Emacs-generated
+.#*
+\#*#
+
+# Ignore stuff from the 'gh-pages' branch
+assets/
+_layouts/
+_site/
+
+# Build stuff
+dist/
+build/
+Pootle.egg-info/
+
+# Requirements generation
+.reqs
